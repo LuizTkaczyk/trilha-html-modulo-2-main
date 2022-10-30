@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.wrapper2{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+    
+}
+.menu a{
+    text-decoration: none;
+}
+
+.menu ul li{
+    list-style: none;
+    font-family: Cinzel;
+    font-size: 10pt;
+}
+
+.menu ul li:hover{
+   background-color: rgba(0, 0, 0, 0.24);
+   border-radius:5px;
+}
+
+.menu ul {
+    padding: 0;
+}
+.header {
+    min-height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    font-family: Cinzel;
+    font-size: 10pt;
+    text-align: justify;
+    flex-direction: column;
+}
+.footer {
+    background-color: aqua;
+    min-height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cinzel;
+}
+#logotipo{
+    width: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#titulo{
+    font-style: italic;
+    font-family: Cinzel;
+    font-size: 30px;
+    color:#2b0c66;
+    text-shadow: 0px 0px 26px black;
+}
+
+@font-face{
+    font-family: Cinzel;
+    src: url('font/Cinzel-Medium.ttf');
+}
+
+.phone{
+    display: flex;
+}
+
+#mapa{
+    display: flex;
+    margin: 0 auto;
+}
+#formulario{
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.fields{
+    padding: 5px;
+    width:400px;
+}
+
+input{
+    width: 100%;
+}
+
+#contato{
+    width: 500px;
+    height: 115px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#sobre{
+    width: 460px;
+    height: 160px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#horario{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
